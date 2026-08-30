@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>DataDisplay CYD Instalátor</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  <style>
+    body { background-color: #222; color: #fff; font-family: sans-serif; text-align: center; padding-top: 50px; }
+    .card { background: #333; display: inline-block; padding: 40px; border-radius: 12px; }
+    h1 { color: #fbc02d; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>DataDisplay V1.5.0 CYD</h1>
+    <p>Online installer for your CYD. Use Chrome or Edge.</p>
+    <esp-web-install-button manifest="./manifest.json">
+      <button slot="activate">CONNECT AND INSTALL</button>
+    </esp-web-install-button>
+  </div>
+</body>
+</html>
