@@ -1,13 +1,11 @@
 {
-  "name": "DataDisplay V1.5.0 CYD",
-  "version": "1.5.0",
+  "name": "Xiaozhi ESP32-C3",
+  "version": "2.4.2",
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32C3",
       "parts": [
-        { "path": "bootloader.bin", "offset": 4096 },
-        { "path": "partitions.bin", "offset": 32768 },
-        { "path": "firmware.bin", "offset": 65536 }
+        { "path": "merged-binary.bin", "offset": 0 }
       ]
     }
   ]
